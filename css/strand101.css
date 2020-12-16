@@ -1,0 +1,224 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/astronomy.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+
+.scrollable {
+    height: 90%;
+    width: 80%;
+    overflow: auto;
+}
+
+.hero {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero > .title {
+    margin: 0;
+    font-size: 5rem;
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+}
+
+.hero > .links > li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+.links ul{
+    display: flex;
+    padding: 0px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+}
+.links li {
+    list-style: none;
+}
+.links ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 25px 5px 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main > .content {
+    width: 80%;
+    background-color:#EBB75B;
+    opacity: 0.95
+}
+.Title {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    color: #593719;
+}
+.banner {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ytvid {
+    text-align: center;
+    padding: 20px;
+}
+.banner img {
+    width: 100%;
+}
+.qweqwe {
+    border-bottom: solid 1px  #503116;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    padding: 20px 20px 10px 20px;
+
+    font-family: 'Raleway', sans-serif;
+    vertical-align: middle;
+}
+
+.left   {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+    width: 20%;
+}
+
+.middle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+    width: 50%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+ 
+}
+
+.example {
+    background-color: #F9EAB4;
+    opacity: 0.8;
+    text-align: center;
+    margin: 0px 20px 20px 20px;
+    color: #593719;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: #593719;
+    transition: .5s ease;
+}
+a:active {
+    color: #EBB75B
+}
+
+.content {
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+.section {
+    padding: 20px;
+    border-left: solid 5px #593719;
+}
+.sectiontitle {
+    font-size: 185%;
+    padding: 50px 0px 50px 0px;
+    font-family: 'Archivo', sans-serif;
+}
+.sectiontitle2{
+    font-size: 140%;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.sectioncontent {
+    padding: 25px 0px 35px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: #DCF0FE;
+}
+
+.blogbox:hover {
+    background-color:  #CF5376;
+    transition: .5s ease;
+}
+.blogbox {
+    padding: 20px;
+    display: flex;
+    max-width: 100%;
+    box-sizing: border-box;
+    border: 20px 20px 20px 20px;
+}
+
+.blogbox img {
+    height: 200px;
+    padding-right: 40px;
+}
+.blogboxcontent {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: white
+}
+.quote{
+    background-color: #232323;
+    opacity: 0.8;
+    padding: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+    color: #CF5376;
+}
+
+.button2 {
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #CF5376;
+    color: black;
+}
+.content > ul > li {
+    list-style: none;
+    margin-bottom: 1rem;
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+.main > .nav {
+    width: 20%;
+    position: sticky;
+}
+
+a {
+    text-decoration: none;
+}
+h1 {
+    margin: 10px 0px 30px 0px;
+}
+
+h5 {
+    margin: 10px auto;
+}

@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/astronomy.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+
+.scrollable {
+    height: 90%;
+    width: 80%;
+    overflow: auto;
+}
+
+.hero {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero > .title {
+    margin: 0;
+    font-size: 5rem;
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+}
+.hero > img {
+    height: 150px;
+    width: 150px;
+}
+.hero > .links > li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+.links ul{
+    display: flex;
+    padding: 0px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+}
+.links li {
+    list-style: none;
+}
+.links ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 25px 5px 25px;
+    font-family: 'Roboto', sans-serif;;
+
+}
+.links ul li a:hover {
+    color: black;
+    background:rgba(255, 255, 255, 0.65);
+    transition: .5s ease;
+}
+
+
+.links ul li a:active {
+    color: white;
+    background: rgba(207, 83, 118, 0.65);
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main > .content {
+    width: 80%;
+    background-color: rgba(0,0,0,0.75);
+}
+
+.content {
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+.section {
+    padding: 20px;
+    border-left: solid 5px #BF365D;
+}
+.section2 {
+    padding: 20px;
+}
+.sectiontitle {
+    font-size: 185%;
+    padding: 50px 0px 50px 0px;
+    font-family: 'Archivo', sans-serif;
+}
+.sectiontitle2{
+    font-size: 140%;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.sectioncontent {
+    padding: 25px 0px 35px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: #DCF0FE;
+}
+.quote{
+    background-color: #232323;
+    opacity: 0.8;
+    padding: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+    color: #CF5376;
+}
+.content > ul {
+    padding: 0;
+}
+.button {
+    padding: 50px;
+}
+.button2 {
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #CF5376;
+    color: black;
+}
+.button2:hover {
+    background-color: white;
+    transition: .5s ease;
+    color: #CF5376;
+}
+.content > ul > li {
+    list-style: none;
+    margin-bottom: 1rem;
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+.main > .nav {
+    width: 20%;
+    position: sticky;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
